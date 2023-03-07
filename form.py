@@ -8,7 +8,7 @@ db = mysql.connector.connect(
     host="172.19.0.2",
     user="bd",
     password="jeyson13",
-    database="db_production"
+    database="db_testing"
 )
 
 cursor = db.cursor()
